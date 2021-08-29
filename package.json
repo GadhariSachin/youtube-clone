@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webpack": "4.29.6",
     "webpack-cli": "3.2.3"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "sass": "^1.38.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^4.46.0"
   }
 }
