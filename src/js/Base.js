@@ -4,3 +4,5 @@ class Base {
     console.log({ config });
   }
 }
+
+export default Base;

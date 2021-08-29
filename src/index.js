@@ -1,3 +1,5 @@
+import Base from "./js/Base";
+
 var baseInst = new Base("Hi there from Index..!!");
 var appContainer = document.getElementById("app");
 
